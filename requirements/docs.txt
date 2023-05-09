@@ -1,0 +1,8 @@
+echo"sphinx==4.0.2" >> requirements/docs.txt
+pip install -r requirements/docs.txt
+
+#
+mkdir -p docs/en
+co docs/en
+sphinx-quickstart
+
